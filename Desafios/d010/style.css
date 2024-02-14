@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf) format('opentype');
+}
+
+*{
+    line-height: 2em;
+}
+body{
+    background-color: lightgreen;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(50, 127, 50), rgb(15, 40, 15));
+    font-family: Impact, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    box-shadow: 3px 3px 16px 2px black;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(181, 245, 181);
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: rgb(27, 79, 27);
+    padding: 3px;
+    border-radius: 5px;
+}
+    
+h1.titulop{
+    font-family: 'idroid';
+}
+main > p{
+    text-indent: 25px;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    min-width: 350px;
+    max-width:800px;
+}
+main > h1{
+    color: rgb(2, 42, 2);
+}
+
+h2{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, lightgreen, white);
+    color: rgb(3, 62, 3);
+}
+
+picture{
+    margin: auto;
+}
+
+main > p > a{
+    background-color: rgb(164, 255, 164);
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+main > p > a::after{
+    content: '\1F517\00A0';
+}
+
+iframe{
+    border: 30px solid rgb(1, 49, 1);
+    width: 90%;
+    margin: auto;
+}
+
+.pequena{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+.dan-droids{
+
+    width: 200px;
+    margin: auto;
+}
+
+.w{
+    display: block;
+    margin: auto;
+}
+
+footer > p{
+    background-color: rgb(0, 55, 0);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+aside{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+aside h3{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+

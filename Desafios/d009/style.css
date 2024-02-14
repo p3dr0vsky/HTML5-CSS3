@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, blue, orange);
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
