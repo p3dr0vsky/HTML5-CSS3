@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Passion;
+    src: url('projeto/Passion_One/PassionOne-Bold.ttf');
+}
+@font-face {
+    font-family: Sriacha;
+    src: url('projeto/Sriracha-Regular.ttf');
+}
+header{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+header > h1{
+    display: block;
+    font-family: Passion;
+    text-align: center;
+    font-size: 8em;
+    margin: auto;
+    padding-top: 50px;
+}
+ *{
+    margin: 0px;
+ }
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header p > strong > a{
+    text-decoration: none;
+    color: white;
+}
+
+header p strong a:hover{
+    text-decoration: underline;
+}
+
+main > section.pr{
+    background-color: white;
+    color: black;
+    font-family: Sriacha;
+    font-size: 3em;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+main section.seg{
+    background-image: url('projeto/images\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+main >section.seg > p{
+    display: inline-block;
+    color: white;
+    font-family: Sriacha;
+    font-size: 3em;
+    padding: 20px;
+    line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.434);
+    height: 300;
+    width: auto;
+    margin: 100px 20px;
+    border-radius: 10px;
+}
+
+main > section.ter{
+    background-color: white;
+    color: black;
+    font-family: Sriacha;
+    font-size: 3em;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+main section.quar{
+    background-image: url('projeto/download.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main section.quar p{
+    display: inline-block;
+    color: white;
+    font-family: Sriacha;
+    font-size: 3em;
+    padding: 20px;
+    line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.434);
+    height: 300;
+    width: auto;
+    margin: 100px 20px;
+    border-radius: 10px;
+}
+
+main section.ult{
+    background-color: white;
+    color: black;
+    font-family: Sriacha;
+    font-size: 3em;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
