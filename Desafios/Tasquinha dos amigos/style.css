@@ -5,15 +5,16 @@
 }
 header{
     background-color: rgb(70, 70, 70);
-    box-shadow: 20px 20px 20px black;
-    background-attachment: fixed;
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <div class="hamburger"> <span></span> <span></span> <span></span> <span></span> </div> </button>
+    box-shadow: 10px 10px 10px black;
+    position: relative;
 }
- header img{
+header > img{
     height: 60px;
     padding: 10px;
     padding-left: 80px;
-    
+    position: sticky;
+    top: -1px;
+    background-color:  rgb(70, 70, 70);
  }
  * {
     margin: 0px;
