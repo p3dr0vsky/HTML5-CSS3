@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Jost;
+    src: url('Jost-Medium.ttf');
+}
+header{
+    background-color: rgb(70, 70, 70);
+    box-shadow: 20px 20px 20px black;
+    background-attachment: fixed;
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <div class="hamburger"> <span></span> <span></span> <span></span> <span></span> </div> </button>
+}
+ header img{
+    height: 60px;
+    padding: 10px;
+    padding-left: 80px;
+    
+ }
+ * {
+    margin: 0px;
+ }
+
+section{
+    background-color: rgb(45, 45, 45);
+    columns: 1;
+}
+section.prim{
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    columns: 2;
+}
+section img{
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+section p{
+    margin-right: 50px;
+    padding-top: 50px ;
+    text-align: right;
+    font-size: 3em;
+    font-family: 'Jost';
+    font-weight: normal;
+    line-height: 1.5em;
+    color: rgb(124, 124, 124);
+}
+.t{
+    color: #E7464B;
+}
+
+section nav{
+    margin-top: 80px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+section nav a{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Jost';
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-right: 10px;
+    
+}
+.v{
+    background-color: #E7464B;
+}
+.p{
+    background-color: rgb(134, 133, 133);
+}
+
+.v:hover{
+    background-color:#b0363a ;
+}
+
+.p:hover{
+    background-color: #474747;
+}
+
+section#seg{
+    columns: 1;
+    padding-top: 50px;
+}
+section#seg img{
+    display: block;
+    text-align: center;
+    height: 160px;
+    margin: auto;
+}
+
+section#ter > img{
+    padding-top: 50px;
+    display: inline-block;
+    height: 50px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
