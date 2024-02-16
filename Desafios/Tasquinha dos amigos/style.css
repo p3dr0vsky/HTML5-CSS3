@@ -4,23 +4,23 @@
     src: url('Jost-Medium.ttf');
 }
 header{
-    background-color: rgb(70, 70, 70);
+    position: fixed;
     box-shadow: 10px 10px 10px black;
-    position: relative;
+    width: 100%;
+    top: -1;
+    background-color: rgb(70, 70, 70);
 }
 header > img{
     height: 60px;
     padding: 10px;
     padding-left: 80px;
-    position: sticky;
-    top: -1px;
-    background-color:  rgb(70, 70, 70);
  }
  * {
     margin: 0px;
  }
 
 section{
+    padding-top: 50px;
     background-color: rgb(45, 45, 45);
     columns: 1;
 }
@@ -99,6 +99,10 @@ section#ter > img{
     margin: auto;
     padding: 20px;
 
+}
+
+main section.ter h1{
+    color: #E7464B;
 }
 
 
