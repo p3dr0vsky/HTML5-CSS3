@@ -6,6 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest" required>
+                <option value="" selected> --- Escolha --- </option>
+                <optgroup label="Região Sul">
+                    <option value="L">Lisboa</option>
+                    <option value="S">Setúbal</option>
+                    <option value="A">Évora</option>
+                    <option value="F">Faro</option>
+                </optgroup>
+                <optgroup label="Região Norte">
+                    <option value="B">Braga</option>
+                    <option value="P">Porto</option>
+                    <option value="V">Viana do Castelo</option>
+                    <option value="G">Guimarães</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof" required>
+            <datalist id="lstprof" >
+                <option>Administrador</option>
+                <option>Professor</option>
+                <option>Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
