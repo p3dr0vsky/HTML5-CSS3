@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Jost;
+    src: url(../Jost/Jost-Regular.ttf);
+}
+@font-face {
+    font-family: JostBB;
+    src: url(../Jost/static/Jost-ExtraBold.ttf);
+}
+@font-face {
+    font-family: JostB;
+    src: url(../Jost/static/Jost-Bold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    font-family: Jost;
+    scroll-behavior: smooth;
+}
+
+#cabeçalho{
+    position: relative;
+    height: 93px;
+    width: 100vw;
+    background-color: #434242;
+    position: fixed;
+}
+#cabeçalho  #img01 > img{
+    display: inline-block;
+    height: 55px;
+    width: 71px;
+    padding: 16px;
+    padding-left: 90px;
+}
+
+#cabeçalho span.material-icons{
+    position: absolute;
+    display: block;
+    text-align: right;
+    font-size: 3em;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    padding-right: 30px;
+    color: #E7464B;
+    cursor: pointer;
+}
+
+#items{
+    display: none;
+    text-decoration: none;
+    background-color: #434242;
+    padding-top: 0px;
+    border-collapse: collapse;
+}
+menu > ul{
+    list-style-type: none;
+
+}
+menu > ul > li > a{
+    font-family: Jost;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: rgb(30, 30, 30);
+}
+menu > ul > li > a:hover{
+    color: black;
+}
+
+article#img002 > img{
+    height: 508px;
+    width: 680px;
+    padding: 50px;
+    margin-top: 120px;
+}
+
+#inicio{
+    background-color: #353535;
+    columns: 2;
+}
+
+#txtl > h1{
+    font-size: 3em;
+    color: #9D9E9E;
+    line-height: 2em;
+}
+#txtl{
+    text-align: right;
+    padding: 50px;
+    padding-top: 200px;
+
+}
+#txtl > h1#red{
+    color: #E7464B;
+}
+#txtl > a{
+    font-family: JostB;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #E7464B;
+    padding: 13px 15px;
+    margin: 10px;
+    margin-right: 0px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+}
+#txtl > a:hover{
+    background-color: #af363a;
+}
+#txtl > a#bgrey{
+    background-color: #9D9E9E;
+}
+#txtl > a#bgrey:hover{
+    background-color: #606060;
+}
+
+#logoi{
+    background-color: #353535;
+}
+#logoi > img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+article#coms > img{
+    height: 75px;
+    display: inline-block;
+    
+}
+article#coms{
+    background-color: #353535;
+    padding: 35px;
+    padding-left: 35%;
+    
+}
+
+#par{
+    
+    background-color: #353535;
+    color: white;
+    font-family: Jost;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+#par p{
+    text-align: center;
+    padding: 10px;
+}
+#titp{
+    font-family: JostBB;
+    font-size: 55px;
+    color: #E7464B;
+    text-align: center;
+    margin-top: 50px;
+}
+section#hiper >  a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #353535;
+    font-family: JostB;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+section#hiper{
+    padding-top: 30px;
+    text-align: center;
+}
+
+section#hiper > #bred{
+    border: 1px solid #E7464B;
+    color: #a73438;
+}
+section#hiper > #bred:hover{
+    background-color: #E7464B;
+    color: white;
+}
+
+section#hiper > a:hover{
+    background-color: #353535;
+    color: white;
+}
+#menus article{
+    padding-left: 60px;
+    line-height: 2.5em;
+    margin-top: 50px;
+}
+#normal{
+    font-family: Jost;
+}
+#bold{
+    font-family: JostBB;
+}
+#menus h2{
+    font-size: 36px;
+    font-family: Jost;
+    color: #E7464B;
+}
+
+
+#mej{
+    display: block;
+    margin-top: 60px;
+    background-color:#353535;
+    columns: 2;
+    padding: 30px;
+    height: 600px;
+    width: 90vw;
+    margin: auto;
+ 
+ }
+#mej img{
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+
+ }
+ 
+#mej h2{
+    font-family: JostB;
+    padding-top: 80px;
+}
+#mej p{
+    text-align: left;
+    color: #9D9E9E;
+}
+#pf{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#txtr a{
+    text-decoration: none;
+    color: #9D9E9E;
+    font-family: JostBB;
+}

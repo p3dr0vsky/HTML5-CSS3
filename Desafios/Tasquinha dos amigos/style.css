@@ -141,3 +141,9 @@ article#colunas-2{
     padding: auto;
 }
 
+header > span{
+    display: inline-block;
+    color: #E7464B;
+    text-align: right;
+    background-color: #474747;
+}
