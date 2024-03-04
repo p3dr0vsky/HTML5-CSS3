@@ -27,7 +27,9 @@ body, html{
     width: 100vw;
     background-color: #434242;
     position: fixed;
+
 }
+
 #cabeçalho  #img01 > img{
     display: inline-block;
     height: 55px;
@@ -201,7 +203,7 @@ section#hiper > a:hover{
 }
 #menus h2{
     font-size: 36px;
-    font-family: Jost;
+    font-family: JostB;
     color: #E7464B;
 }
 
@@ -242,3 +244,125 @@ section#hiper > a:hover{
     color: #9D9E9E;
     font-family: JostBB;
 }
+#menus h1{
+    font-family: Jost;
+    color: #E7464B;
+    font-size: 32px;
+}
+
+iframe{
+    display: block;
+    width: 90vw;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#logob{
+    margin-top: 80px;
+    background-color: white;
+    
+}
+#logob img{
+    display: block;
+    margin: auto;
+    height:160px;
+}
+
+#msg{
+    margin-top: 30px;
+}
+#msg h1{
+    text-align: center;
+    font-family: Jost;
+    color: #E7464B;
+    font-size: 32px;
+}
+
+#dv p{
+    margin-top: 30px;
+    text-align: center;
+    color: #9D9E9E;
+    font-family: Jost;
+    font-size: 1em;
+}
+#form{
+    margin-top: 30px;
+}
+form input{
+    display: block;
+    width: 90vw;
+    height: 20px;
+    border: 1px solid #E7464B;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 8px;
+}
+article#msg input{
+    padding-bottom: 80px;
+}
+
+#submit{
+    display: inline-block;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#submit input{
+    border-radius: 10px;
+    color: white;
+    background-color: #E7464B;
+    font-family: JostB;
+    padding: 20px;
+    height: 60px;
+    font-size: 1em;
+    width: 220px;
+
+}
+#submit input:hover{
+    background-color: #a73438;
+}
+
+#pequena{
+    background-color: #353535;
+}
+#pequena img{
+    height: 120px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+#copyright{
+    padding-bottom: 30px;
+}
+#copyright p{
+    padding-left: 60px;
+    color: #9D9E9E;
+    font-size: 1em;
+    font-family: Jost;
+}
+#copyright p a{
+    color: #E7464B;
+    text-decoration: none;
+}
+#copyright p a:hover{
+    text-decoration: underline;
+}
+aside{
+    position: fixed;
+    text-align: right;
+    bottom: 20px;
+    right: 20px;
+}
+aside a span{
+    color: white;
+    background-color: #60606071;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+aside:hover{
+    background-color: #434242;
+    border-radius: 10px;
+}
+
