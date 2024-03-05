@@ -11,6 +11,24 @@
     font-family: JostB;
     src: url(../Jost/static/Jost-Bold.ttf);
 }
+@keyframes slideInTop{
+    from{
+        transform: translateY(200px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+#main{
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-name: slideInTop;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+    animation-direction: normal;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -73,6 +91,7 @@ menu > ul > li > a{
 menu > ul > li > a:hover{
     color: black;
 }
+
 
 article#img002 > img{
     height: 508px;
@@ -365,4 +384,15 @@ aside:hover{
     background-color: #434242;
     border-radius: 10px;
 }
+#facebook{
+    color: #E7464B;
+    font-size: 2em;
+}
+
+#ni h1{
+    color: #E7464B;
+    font-family: JostB;
+    font-size: 2em;
+}
+
 
